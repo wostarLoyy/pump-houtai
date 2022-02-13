@@ -1,0 +1,20 @@
+.manage-box {
+  min-height: calc(100vh - 40px);
+  &-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    &-left {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+.manage-box.tags {
+  padding: 10px 20px;
+  background-color: #fff;
+}
+.manage-box.com {
+  padding: 0;
+}
